@@ -1,7 +1,7 @@
 import{ sleep } from 'k6';
 import http from 'k6/http';
-import * as variables from '../AssetTypeConfig.js/';
-
+// import * as variables from '../AssetTypeConfig.js/';
+import * as variables from `${_DIR_}/../AssetTypeConfig.js`;
 export let options = {
     duration : '30s',
     vus : 5,
