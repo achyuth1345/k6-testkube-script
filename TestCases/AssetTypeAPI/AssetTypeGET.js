@@ -1,6 +1,6 @@
 import{ sleep } from 'k6';
 import http from 'k6/http';
-import * as variables from '../../Config/AssetTypeConfig';
+import * as variables from '/data/repo/k6-testkube-script/Config/AssetTypeConfig';
 
 export let options = {
     duration : '30s',
