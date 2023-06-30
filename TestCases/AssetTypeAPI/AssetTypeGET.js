@@ -9,6 +9,6 @@ export let options = {
 const Url=variables.default.AssetTypeGET_baseUrl;
 const queryparams=variables.default.AssetTypeGET_queryparams;
 export default function() {
-    // const response=http.get('https://rego-dev-api.dovertech.co.in/assetmanagement/api/v1/assettype',queryparams);
+    const response=http.get('https://rego-dev-api.dovertech.co.in/assetmanagement/api/v1/assettype',queryparams);
     console.log('status Code:${response.status}');
   }
